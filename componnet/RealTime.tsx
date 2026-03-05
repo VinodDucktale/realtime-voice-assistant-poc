@@ -101,6 +101,7 @@ const EPHEMERAL_KEY = data.client_secret.value;
     pcRef.current?.close();
 
     dcRef.current = null;
+    
     pcRef.current = null;
 
     setConnected(false);
