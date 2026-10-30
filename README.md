@@ -34,3 +34,9 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
+## Harness Code Changes
+- **Instruction:** Inspect the codebase to determine the stack (e.g., Next.js/React/Vite, React Native, plain HTML/CSS, Tailwind, MUI/Chakra, Styled Components). Search for font-family declarations, theme typography settings, Tailwind config (tailwind.config.*), global CSS (e.g., globals.css/app.css/index.css), CSS-in-JS theme files, and any existing font imports (Google Fonts, @font-face, next/font, expo-font). Produce a concise inventory: (1) where fonts are declared/configured, (2) what font families are currently used, (3) the single best central place to enforce Inter, and (4) risks (multiple design systems, SSR constraints, native platforms).
+- **Branch:** `harness/inspect-the-codebase-to-determ-9tqvmdo`
+- **Timestamp:** 2026-10-30T11:48:41.975Z
