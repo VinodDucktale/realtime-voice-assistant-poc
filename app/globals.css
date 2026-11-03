@@ -6,7 +6,7 @@
           padding: 30px;
           max-width: 1200px;
           margin: auto;
-          font-family: system-ui;
+          font-family: var(--font-poppins), system-ui, sans-serif;
           width: 100%;
           box-sizing: border-box;
         }
