@@ -1,12 +1,15 @@
 
 
+        body {
+          font-family: var(--font-poppins), system-ui, sans-serif;
+        }
+
         .container {
           display: flex;
           gap: 40px;
           padding: 30px;
           max-width: 1200px;
           margin: auto;
-          font-family: system-ui;
           width: 100%;
           box-sizing: border-box;
         }
