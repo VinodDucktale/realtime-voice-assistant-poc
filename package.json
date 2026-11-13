@@ -6,7 +6,9 @@
     "dev": "node api.js && next dev",
     "build": "node api.js && next build",
     "start": "node api.js && next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "smoke": "node smoke.test.js",
+    "test": "npm run smoke"
   },
   "dependencies": {
     "next": "16.1.6",
